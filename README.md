@@ -19,3 +19,11 @@ The datasets are available from a google drive link in the Heterogeneous PU-LP/D
 # Proposed Approach: Attention PU-LP for Fake News Detection
 
 ![proposedapproach_page-0001](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/269fe1ac-6f23-4299-b215-202df7b19ed2)
+
+# Features of each news Dataset
+
+![image](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/08f258a3-dc75-4571-a6e1-df8b1dab0653)
+
+# Results
+
+![Desenho sem título (5)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/3b18e953-8ba2-4864-acef-8d219c138573)
