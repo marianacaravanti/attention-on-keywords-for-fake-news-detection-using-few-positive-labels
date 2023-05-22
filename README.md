@@ -16,5 +16,6 @@ To minimize the problem of fake news, approaches proposed in the literature gene
 
 The datasets are available from a google drive link in the Heterogeneous PU-LP/Datasets folder.
 
+# Proposed Approach: Attention PU-LP for Fake News Detection
 
 ![proposedapproach_page-0001](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/269fe1ac-6f23-4299-b215-202df7b19ed2)
