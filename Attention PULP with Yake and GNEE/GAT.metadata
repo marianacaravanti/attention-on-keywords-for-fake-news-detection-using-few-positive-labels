@@ -1,0 +1,2 @@
+alpha	cuda	dropout	epochs	fastmode	hidden	lr	no_cuda	patience	seed	is_sparse	weight_decay
+0.2	False	0.5	20	False	8	0.005	False	100	72	True	0.0005
