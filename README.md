@@ -27,3 +27,11 @@ The datasets are available from a google drive link in the Heterogeneous PU-LP/D
 # Results
 
 ![Desenho sem título (5)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/3b18e953-8ba2-4864-acef-8d219c138573)
+
+![image](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/0e23840f-6120-4bca-8852-a2c9e0ae0f83)
+
+
+![Desenho sem título](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/f99bcc38-acbd-4851-ac59-b16510f4f688)
+
+![Desenho sem título (1)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/42f8f2bf-bb61-4b8a-8bc5-796c839d1ab1)
+
