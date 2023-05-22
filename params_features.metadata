@@ -1,3 +1,0 @@
-network_name	features	weight_relations	attention_heads	
-net_0.relations	news	{"news_news": 1}	1
-net_1.relations	news,term	{"news_news": 1, "news_term": 1}	1
