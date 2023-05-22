@@ -40,11 +40,13 @@ The datasets are available from a google drive link in the Heterogeneous PU-LP/D
 
 # References
 
-[PU-LP]: Ma, S., Zhang, R.: Pu-lp: A novel approach for positive and unlabeled learning by label propagation. In: 2017 IEEE International Conference on Multimedia & Expo
-Workshops (ICMEW). pp. 537–542. IEEE (2017).
+[PU-LP]: Ma, S., Zhang, R.: Pu-lp: A novel approach for positive and unlabeled learning by label propagation. In: 2017 IEEE International Conference on Multimedia & Expo Workshops (ICMEW). pp. 537–542. IEEE (2017).
 
-[FBR]: Silva, R.M., Santos, R.L., Almeida, T.A., Pardo, T.A.: Towards automatically filtering fake news in portuguese. Expert Systems with Applications 146, 113–199
-(2020).
+[GNEE]: Mattos, Joao Pedro Rodrigues, and Ricardo M. Marcacini. "Semi-Supervised Graph Attention Networks for Event Representation Learning." 2021 IEEE International Conference on Data Mining (ICDM). IEEE, 2021.
+
+[Yake!]: Campos, Ricardo, et al. "YAKE! Keyword extraction from single documents using multiple local features." Information Sciences 509 (2020): 257-289.
+
+[FBR]: Silva, R.M., Santos, R.L., Almeida, T.A., Pardo, T.A.: Towards automatically filtering fake news in portuguese. Expert Systems with Applications 146, 113–199 (2020).
 
 [FNN]: Shu, Kai, et al. Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. Big data 8.3 (2020): 171-188.
 
