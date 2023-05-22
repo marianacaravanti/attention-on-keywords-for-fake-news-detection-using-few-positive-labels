@@ -37,3 +37,16 @@ The datasets are available from a google drive link in the Heterogeneous PU-LP/D
 
 
 ![Desenho sem título (2)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/4f979adb-ec42-4285-8b01-fd802db508fe)
+
+# References
+
+[PU-LP]: Ma, S., Zhang, R.: Pu-lp: A novel approach for positive and unlabeled learning by label propagation. In: 2017 IEEE International Conference on Multimedia & Expo
+Workshops (ICMEW). pp. 537–542. IEEE (2017).
+
+[FBR]: Silva, R.M., Santos, R.L., Almeida, T.A., Pardo, T.A.: Towards automatically filtering fake news in portuguese. Expert Systems with Applications 146, 113–199
+(2020).
+
+[FNN]: Shu, Kai, et al. Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. Big data 8.3 (2020): 171-188.
+
+[FNC0-FNC1-FNC2]: Fonte: <a href="https://github.com/several27/FakeNewsCorpus">FakeNewsCorpus</a>
+
