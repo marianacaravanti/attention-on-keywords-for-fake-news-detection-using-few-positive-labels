@@ -1,12 +1,25 @@
 # Attention on Keywords for Fake News Detection using few positive labels
 
-- Mariana Caravanti de Souza (ICMC/USP)
-- Marcos Paulo Silva Gôlo (ICMC/USP)
-- Alípio Mário Guedes Jorge (DCC/FCUP)
-- Evelin Carvalho Freire de Amorim (DCC/FCUP)
-- Ricardo Campos (Polytechnic Institute of Tomar)
-- Ricardo Marcondes Marcacini (ICMC/USP)
-- Solange Oliveira Rezende (ICMC/USP)
+- Mariana Caravanti de Souza (ICMC/USP) | mariana.caravanti@usp.br (corresponding author)
+- Marcos Paulo Silva Gôlo (ICMC/USP) | marcosgolo@usp.br
+- Alípio Mário Guedes Jorge (DCC/FCUP) | amjorge@fc.up.pt
+- Evelin Carvalho Freire de Amorim (DCC/FCUP) | evelin.f.amorim@inesctec.pt
+- Ricardo Campos (Polytechnic Institute of Tomar) | ricardo.campos@inesctec.pt
+- Ricardo Marcondes Marcacini (ICMC/USP) | ricardo.marcacini@icmc.usp.br
+- Solange Oliveira Rezende (ICMC/USP) | solange@icmc.usp.br
+
+# Citing:
+
+If you use any part of this code in your research, please cite it using the following BibTex entry
+```latex
+@article{ref:DeSouza2023,
+  title={Attention on Keywords for Fake News Detection using few positive labels},
+  author={de Souza, Mariana Caravanti and Gôlo, Marcos Paulo Silva and and Jorge, Alípio Mário Guedes and de Amorim, Evelin Carvalho Freire and Campos, Ricardo and Marcacini, Ricardo Marcondes and Rezende, Solange Oliveira},
+  journal={Data Mining and Knowledge Discovery},
+  year={2023},
+  publisher={Springer}
+}
+```
 
 # Abstract
 
@@ -26,17 +39,31 @@ The datasets are available from a google drive link in the Heterogeneous PU-LP/D
 
 # Results
 
+## PU-LP vs OCL|RC-SVM 
+
 ![Desenho sem título (5)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/3b18e953-8ba2-4864-acef-8d219c138573)
+
+## Statistical Analisys
 
 ![image](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/0e23840f-6120-4bca-8852-a2c9e0ae0f83)
 
+## Parameter Analisys
 
 ![Desenho sem título](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/f99bcc38-acbd-4851-ac59-b16510f4f688)
 
+## Proposal vs One-Class Graph Neural Networks
+
 ![Desenho sem título (1)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/42f8f2bf-bb61-4b8a-8bc5-796c839d1ab1)
 
+## Representation Analisys
 
 ![Desenho sem título (2)](https://github.com/marianacaravanti/attention-on-keywords-for-fake-news-detection-using-few-positive-labels/assets/8595261/4f979adb-ec42-4285-8b01-fd802db508fe)
+
+# Files Organization
+- dataset: datasets used in the article
+- until: libraries and until functions
+- codes: source codes
+
 
 # References
 
@@ -51,4 +78,3 @@ The datasets are available from a google drive link in the Heterogeneous PU-LP/D
 [FNN]: Shu, Kai, et al. Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. Big data 8.3 (2020): 171-188.
 
 [FNC0-FNC1-FNC2]: Fonte: <a href="https://github.com/several27/FakeNewsCorpus">FakeNewsCorpus</a>
-
