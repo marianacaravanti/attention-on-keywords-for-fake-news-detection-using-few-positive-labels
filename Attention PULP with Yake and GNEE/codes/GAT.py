@@ -463,7 +463,7 @@ gat = GAT_wrapper({"alpha": alpha, "cuda": cuda, "dropout": dropout, "epochs": e
 gat.train_pipeline(adj, features, labels, idx_train, idx_train, idx_test)
 
 
-embedding = gat.model.get_attention_heads_outputs(gat.features,gat.adj).detach().numpy()
+embedding = gat.model.get_attention_heads_outputs(gat.features,gat.adj).cpu().detach().numpy()
 counter = 0
 X = []
 Y = []
@@ -499,7 +499,7 @@ g.set(ylabel=None)
 plt.savefig('GNEE.pdf')
 
 loss, acc, output = gat.compute_test()
-y_pred = output.numpy()
+y_pred = output.cpu().numpy()
 y_pred = y_pred.tolist()
 y_true = []
 y_label = []
@@ -567,9 +567,9 @@ FN = matriz_confusao['pred_neg'].loc['classe_pos'].sum()
 precision = TP / (TP + FP)
 recall = TP / (TP + FN)
 f1 = (2*precision*recall)/(precision+recall)
-fpr, tpr, thresholds = roc_curve(y_true, y_pred, pos_label=0)
+fpr, tpr, thresholds = roc_curve(y_true, y_pred, pos_label=fake_code)
 auc_fake = auc(fpr, tpr)
-fpr, tpr, thresholds = roc_curve(y_true, y_pred, pos_label=1)
+fpr, tpr, thresholds = roc_curve(y_true, y_pred, pos_label=real_code)
 auc_real = auc(fpr, tpr)
 f.write("\t".join(['gat', list_params_exp, list_params_pulp, list_params_gat,
     str(f1_score(y_true, y_pred, average='macro')), str(f1_score(y_true, y_pred, average='micro')), 
